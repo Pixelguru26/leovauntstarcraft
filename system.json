@@ -1,0 +1,29 @@
+{
+  "name": "leovauntstarcraft",
+  "title": "Leovaunt Starcraft",
+  "description": "Bingle.",
+  "version": "1.0.0",
+  "templateVersion": 2,
+  "author": "Pixel",
+  "scripts": [],
+  "esmodules": [ "init.js" ],
+  "styles": [],
+  "packs": [],
+  "dependencies": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "socket": false,
+  "initiative": "1d20",
+  "gridDistance": 10,
+  "gridUnits": "ft",
+  "primaryTokenAttribute": "resources.health",
+  "secondaryTokenAttribute": null,
+  "url": "https://github.com/Pixelguru26/leovauntstarcraft",
+  "manifest": "https://github.com/Pixelguru26/leovauntstarcraft/system.json",
+  "download": "https://github.com/Pixelguru26/leovauntstarcraft/archive/refs/heads/master.zip"
+}

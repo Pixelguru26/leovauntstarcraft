@@ -1,0 +1,99 @@
+{
+  "Actor": {
+    "types": [ "Player", "Zerg Lol", "Vehicle" ],
+    "templates": {},
+    "Player": {
+      "health": {
+        "value": 0,
+        "min": 0,
+        "max": 0
+      },
+      "shields": {
+        "value": 0,
+        "min": 0,
+        "max": 0
+      },
+      "morale": {
+        "value": 1,
+        "min": -5,
+        "max": 5
+      }
+    },
+    "Zerg Lol": {
+      "health": {
+        "value": 0,
+        "min": 0,
+        "max": 0
+      },
+      "shields": {
+        "value": 0,
+        "min": 0,
+        "max": 0
+      },
+      "regen": {
+        "value": 0
+      }
+    },
+    "Vehicle": {
+      "health": {
+        "value": 0,
+        "min": 0,
+        "max": 0
+      },
+      "speed": {
+        "value": 0,
+        "max": 0
+      },
+      "shields": {
+        "value": 0,
+        "min": 0,
+        "max": 0
+      }
+    }
+  },
+  "Item": {
+    "types": ["weapon", "ranged weapon", "armor", "gear"],
+    "templates": {},
+    "melee weapon": {
+      "total damage": 0,
+      "base damage": 0,
+      "miscellanous mod": 0,
+      "penetration": 0,
+      "total accuracy": 0,
+      "weapon accuracy": 0,
+      "skill accuracy": 0,
+      "miscellanous accuracy": 0,
+      "extra strikes": 0,
+      "reach": 0,
+      "traits": ""
+    },
+    "ranged weapon": {
+      "total damage": 0,
+      "base damage": 0,
+      "miscellanous mod": 0,
+      "penetration": 0,
+      "total accuracy": 0,
+      "weapon accuracy": 0,
+      "skill accuracy": 0,
+      "miscellanous accuracy": 0,
+      "extra strikes": 0,
+      "ammunition max": 0,
+      "ammunition value": 0,
+      "range": 0,
+      "traits": ""
+    },
+    "armor": {
+      "damage reduction": 0,
+      "type": "",
+      "traits": "",
+      "unique dr": "",
+      "upgrades": ""
+    },
+    "gear": {
+      "name": "",
+      "weight": 0,
+      "quantity": 0,
+      "effects": ""
+    }
+  }
+}
