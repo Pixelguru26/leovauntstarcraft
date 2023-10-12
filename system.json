@@ -25,7 +25,7 @@
   "scripts": [
   ],
   "esmodules": [
-    "init.mjs"
+    "dist/init.mjs"
   ],
   "styles": [
 
@@ -40,7 +40,7 @@
     {
       "lang": "en",
       "name": "English",
-      "path": "lang/en.json"
+      "path": "dist/lang/en.json"
     }
   ],
   "socket": false,
@@ -49,7 +49,7 @@
   "gridUnits": "ft",
   "primaryTokenAttribute": "resources.health",
   "secondaryTokenAttribute": null,
-  "url": "https://github.com/Pixelguru26/leovauntstarcraft",
+  "url": "https://github.com/Pixelguru26/leovauntstarcraft/tree/main",
   "manifest": "https://raw.githubusercontent.com/Pixelguru26/leovauntstarcraft/main/system.json",
   "download": "https://github.com/Pixelguru26/leovauntstarcraft/archive/refs/heads/master.zip"
 }
