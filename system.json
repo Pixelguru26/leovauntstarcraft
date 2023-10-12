@@ -1,20 +1,15 @@
 {
-  "id": "boilerplate",
-  "title": "Boilerplate",
-  "description": "The Boilerplate system for FoundryVTT!",
-  "version": "1.2.0",
-  "compatibility": {
-    "minimum": 10,
-    "verified": "10.287",
-    "maximum": 10
-  },
-  "authors": [{
-    "name": "Asacolips"
-  }],
-  "esmodules": ["module/boilerplate.mjs"],
-  "styles": ["css/boilerplate.css"],
+  "name": "leovauntstarcraft",
+  "title": "Leovaunt Starcraft",
+  "description": "Bingle.",
+  "version": "1.0.0",
+  "templateVersion": 2,
+  "author": "Pixel",
   "scripts": [],
+  "esmodules": [ "init.js" ],
+  "styles": [],
   "packs": [],
+  "dependencies": [],
   "languages": [
     {
       "lang": "en",
@@ -22,13 +17,13 @@
       "path": "lang/en.json"
     }
   ],
-  "gridDistance": 5,
+  "socket": false,
+  "initiative": "1d20",
+  "gridDistance": 10,
   "gridUnits": "ft",
-  "primaryTokenAttribute": "health",
-  "secondaryTokenAttribute": "power",
-  "url": "",
-  "manifest": "",
-  "download": "",
-  "license": "LICENSE.txt",
-  "changelog": "CHANGELOG.md"
+  "primaryTokenAttribute": "resources.health",
+  "secondaryTokenAttribute": null,
+  "url": "https://github.com/Pixelguru26/leovauntstarcraft",
+  "manifest": "https://github.com/Pixelguru26/leovauntstarcraft/system.json",
+  "download": "https://github.com/Pixelguru26/leovauntstarcraft/archive/refs/heads/master.zip"
 }
