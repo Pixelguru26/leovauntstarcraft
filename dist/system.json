@@ -1,0 +1,56 @@
+{
+  "id": "leovauntstarcraft",
+  "title": "Leovaunt Starcraft",
+  "description": "Bingle.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11",
+    "maximum": "11"
+  },
+  "authors": [
+    {
+      "name": "Pixel",
+      "url": "idfk",
+      "email": "secret",
+      "discord": "hahano"
+    },
+    {
+      "name": "Phillip",
+      "url": "idfk",
+      "email": "bravesoldierphil@gmail.com",
+      "discord": "bravesoldierphil"
+    }
+  ],
+  "scripts": [
+  ],
+  "esmodules": [
+    "init.mjs"
+  ],
+  "styles": [
+
+  ],
+  "packs": [
+
+  ],
+  "dependencies": [
+    
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "socket": false,
+  "initiative": "1d20",
+  "gridDistance": 5,
+  "gridUnits": "ft",
+  "primaryTokenAttribute": "resources.health",
+  "secondaryTokenAttribute": null,
+  "url": "https://github.com/Pixelguru26/leovauntstarcraft/tree/main/dist",
+  "manifest": "https://raw.githubusercontent.com/Pixelguru26/leovauntstarcraft/main/dist/system.json",
+  "download": "https://github.com/Pixelguru26/leovauntstarcraft/archive/refs/heads/master.zip"
+}
+
