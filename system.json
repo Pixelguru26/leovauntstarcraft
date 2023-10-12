@@ -51,7 +51,7 @@
   "primaryTokenAttribute": "resources.health",
   "secondaryTokenAttribute": null,
   "url": "https://github.com/Pixelguru26/leovauntstarcraft",
-  "manifest": "https://github.com/Pixelguru26/leovauntstarcraft/system.json",
+  "manifest": "https://raw.githubusercontent.com/Pixelguru26/leovauntstarcraft/main/system.json",
   "download": "https://github.com/Pixelguru26/leovauntstarcraft/archive/refs/heads/master.zip"
 }
 
