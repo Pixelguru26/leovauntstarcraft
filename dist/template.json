@@ -1,8 +1,8 @@
 {
   "Actor": {
-    "types": [ "Terran", "Zerg Lol", "Vehicle" ],
+    "types": [ "Player", "Zerg Lol", "Vehicle" ],
     "templates": {},
-    "Terran": {
+    "Player": {
       "health": {
         "value": 0,
         "min": 0,
