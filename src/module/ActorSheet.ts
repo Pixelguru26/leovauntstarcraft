@@ -12,7 +12,7 @@ Data extends object = ActorSheet.Data<Options>
     return "./templates/sheets/character.hbs";
   }
 
-  override async getData(options?: Partial<Options>): Promise<Data> {
+  override getData(options?: Partial<Options>): Data {
     const context = super.getData();
 
     const ret = {

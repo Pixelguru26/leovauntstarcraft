@@ -3,21 +3,9 @@
     "types": [ "Terran", "Zerg Lol", "Vehicle" ],
     "templates": {},
     "Terran": {
-      "health": {
-        "value": 0,
-        "min": 0,
-        "max": 0
-      },
-      "shields": {
-        "value": 0,
-        "min": 0,
-        "max": 0
-      },
-      "morale": {
-        "value": 1,
-        "min": -5,
-        "max": 5
-      }
+      "health": {"value": 0,"min": 0,"max": 0},
+      "shields": {"value": 0,"min": 0,"max": 0},
+      "morale": {"value": 1,"min": -5,"max": 5}
     },
     "Zerg Lol": {
       "health": {
@@ -52,9 +40,9 @@
     }
   },
   "Item": {
-    "types": ["weapon", "ranged weapon", "armor", "gear"],
+    "types": ["weapon_melee", "weapon_ranged", "armor", "gear"],
     "templates": {},
-    "melee weapon": {
+    "weapon_melee": {
       "total damage": 0,
       "base damage": 0,
       "miscellanous mod": 0,
@@ -67,7 +55,7 @@
       "reach": 0,
       "traits": ""
     },
-    "ranged weapon": {
+    "weapon_ranged": {
       "total damage": 0,
       "base damage": 0,
       "miscellanous mod": 0,
@@ -90,7 +78,6 @@
       "upgrades": ""
     },
     "gear": {
-      "name": "",
       "weight": 0,
       "quantity": 0,
       "effects": ""
